@@ -1,6 +1,5 @@
 // Chakra imports
 import { Portal, Box, useDisclosure } from '@chakra-ui/react';
-import Footer from 'components/footer/FooterAdmin';
 // Layout components
 import Navbar from 'components/navbar/NavbarRTL';
 import Sidebar from 'components/sidebar/Sidebar';
@@ -62,9 +61,6 @@ export default function RTLLayout(props: RTLLayoutProps) {
 
 						<Box mx='auto' p={{ base: '20px', md: '30px' }} pe='20px' minH='100vh' pt='50px'>
 							{children}
-						</Box>
-						<Box>
-							<Footer />
 						</Box>
 					</Box>
 				</SidebarContext.Provider>
